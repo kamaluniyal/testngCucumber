@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Google search with scenario",
+        "description": "",
+        "id": "searching-google-should-return-the-name-of-query;google-search-with-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 563981,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches Google webapp",
+            "match": {
+              "location": "stepDefinitions.user_launches_Google_webapp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89841,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user searches for a \"LambdaTest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LambdaTest",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.user_searches_for_a(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45370,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.click_on_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Searching Google should return the name of query",
+    "description": "",
+    "id": "searching-google-should-return-the-name-of-query",
+    "keyword": "Feature",
+    "uri": "features/Intranet.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Google search with scenario",
+        "description": "",
+        "id": "searching-google-should-return-the-name-of-query;google-search-with-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61596,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches Intranet",
+            "match": {
+              "location": "stepDefinition2.user_launches_Intranet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176977,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter text \"this is text \" in textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"this is text \"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition2.user_enter_text_in_textbox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35455,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.click_on_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Searching Google should return the name of query",
+    "description": "",
+    "id": "searching-google-should-return-the-name-of-query",
+    "keyword": "Feature",
+    "uri": "features/Intranet2.feature",
+    "tags": []
+  }
+]
